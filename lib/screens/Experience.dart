@@ -11,18 +11,18 @@ class ExperienceScreen extends StatelessWidget {
         padding: const EdgeInsets.all(16.0),
         children: [
           ExperienceCard(
-            company: 'CircleX',
-            role: 'Flutter Developer',
-            duration: 'Jan 2023 - May 2024',
-            description:
-                'Worked on various Flutter projects, solving different challenges. Worked on apps for gaming, fitness, Quotes, Islamic prayer times, and other apps for a large company based in Australia',
-          ),
-          ExperienceCard(
             company: 'Trellis Digital Agency',
             role: 'Flutter Developer',
             duration: 'Jun 2024 - Present',
             description:
                 'Currently working on multiple Flutter projects. To mention a few: Fast Delivery Service, a trusted delivery service in the town. CV Builder App, which will allow layman users to build state of the art CVs at the tip of their finger',
+          ),
+          ExperienceCard(
+            company: 'CircleX',
+            role: 'Flutter Developer',
+            duration: 'Jan 2023 - May 2024',
+            description:
+                'Worked on various Flutter projects, solving different challenges. Worked on apps for gaming, fitness, Quotes, Islamic prayer times, and other apps for a large company based in Australia',
           ),
         ],
       ),
