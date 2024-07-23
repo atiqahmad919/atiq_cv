@@ -12,15 +12,25 @@ class EducationScreen extends StatelessWidget {
         children: [
           EducationCard(
             institution: 'Virtual University of Pakistan',
-            degree: 'MS in Computer Science',
+            degree: 'MS Computer Science',
             duration: 'Graduated: Sep 2019',
             description:
                 'Focused on software development, algorithms, and data structures.',
           ),
           EducationCard(
+            institution: 'University of Malakand',
+            degree: 'MSc Computer Science',
+            duration: 'Graduated: Dec 2011',
+            description:
+                'Focused on basic programming, Computer science concepts and Software development principles.',
+          ),
+          Divider(
+            color: Colors.blueGrey.shade200,
+          ),
+          EducationCard(
             institution: 'Google',
-            degree: 'UX/UI Design',
-            duration: 'Graduated: Aug 2023',
+            degree: 'UX/UI Design Certificate',
+            duration: 'Completed: Aug 2023',
             description:
                 'Focused on Foundations of User Experience (UX) Design, UX Design Process, Wireframes and LowFidelity Prototypes, UX Research and Test Early Concepts, Create High-Fidelity Designs, Prototypes in Figma, Build Dynamic User Interfaces (UI)',
           ),
@@ -45,7 +55,7 @@ class EducationCard extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Card(
-      margin: EdgeInsets.symmetric(vertical: 10),
+      margin: const EdgeInsets.symmetric(vertical: 10),
       shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(10)),
       elevation: 4,
       child: ListTile(

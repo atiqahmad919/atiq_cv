@@ -5,6 +5,13 @@ import '../utils/constants.dart';
 class TestimonialsScreen extends StatelessWidget {
   final List<Testimonial> testimonials = [
     Testimonial(
+      name: 'Fazal Samad',
+      role: 'Founder & CEO, Trellis Digital Agency',
+      feedback:
+          'I am pleased to recommend Atiq Ahmad, who has been a valuable member of our team at Trellis Digital Agency since June 2024. As a Flutter Developer, Atiq has demonstrated exceptional technical skills and a strong work ethic. His ability to develop and maintain high-performance mobile applications has significantly contributed to our project\'s success. Atiq\'s collaborative approach, coupled with his knack for optimizing app performance and integrating third-party services, has been instrumental in delivering top-quality products to our clients. He consistently brings innovative solutions to the table and has proven to be an indispensable asset to our team. I am confident that Atiq will continue to excel in his career and bring immense value to any organization he joins.',
+      imageUrl: 'images/FazalSamad.jpg',
+    ),
+    Testimonial(
       name: 'Babar Ali',
       role: 'CEO, Createch IT Solutions',
       feedback:
