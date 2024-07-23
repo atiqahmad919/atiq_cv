@@ -1,15 +1,10 @@
 # atiq_cv
 
-A new Flutter project.
+This app is my Résumé / CV, in the form of an App. The App is supposed to represent my portfolio and to let clients get to contact me. Feel free to send a message on atiqahmad919@gmail.com.
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+Feel free to use it as a template for your app.
 
 For help getting started with Flutter development, view the
 [online documentation](https://docs.flutter.dev/), which offers tutorials,
