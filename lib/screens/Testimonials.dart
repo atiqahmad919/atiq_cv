@@ -62,7 +62,8 @@ class TestimonialCard extends StatelessWidget {
             builder: (context) {
               return AlertDialog(
                 title: Text(testimonial.name),
-                content: Text(testimonial.feedback),
+                content:
+                    SingleChildScrollView(child: Text(testimonial.feedback)),
                 actions: [
                   TextButton(
                     onPressed: () {

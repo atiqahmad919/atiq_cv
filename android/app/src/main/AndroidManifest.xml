@@ -1,6 +1,5 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.atiq_cv">
-    <uses-permission android:name="android.permission.QUERY_ALL_PACKAGES"/>
    <application
         android:label="Atiq Ahmad CV"
         android:name="${applicationName}"
@@ -48,6 +47,12 @@
         <intent>
             <action android:name="android.intent.action.VIEW" />
             <data android:scheme="tel" />
+        </intent>
+
+        <!-- If your app checks for email support -->
+        <intent>
+            <action android:name="android.intent.action.VIEW" />
+            <data android:scheme="mailto" />
         </intent>
         <!-- If your application checks for inAppBrowserView launch mode support -->
         <intent>

@@ -23,7 +23,7 @@ class _ImageCarouselState extends State<ImageCarousel> {
             return Builder(
               builder: (BuildContext context) {
                 return Container(
-                  margin: EdgeInsets.symmetric(horizontal: 5.0),
+                  margin: const EdgeInsets.symmetric(horizontal: 5.0),
                   child: ClipRRect(
                     borderRadius: BorderRadius.circular(10.0),
                     child: Image.asset(
@@ -37,7 +37,7 @@ class _ImageCarouselState extends State<ImageCarousel> {
             );
           }).toList(),
           options: CarouselOptions(
-            height: 600.0,
+            height: 400.0,
             autoPlay: true,
             enlargeCenterPage: true,
             enableInfiniteScroll: true,
@@ -49,14 +49,14 @@ class _ImageCarouselState extends State<ImageCarousel> {
             },
           ),
         ),
-        SizedBox(height: 10),
+        SizedBox(height: 05),
         DotsIndicator(
           dotsCount: widget.imagePaths.length,
           position: _currentIndex,
           decorator: DotsDecorator(
             activeColor: Colors.deepPurple,
             size: const Size.square(9.0),
-            activeSize: const Size(18.0, 9.0),
+            activeSize: const Size(22.0, 9.0),
             activeShape: RoundedRectangleBorder(
                 borderRadius: BorderRadius.circular(5.0)),
           ),

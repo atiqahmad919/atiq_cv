@@ -4,10 +4,12 @@ import '../utils/constants.dart';
 
 class SkillsScreen extends StatelessWidget {
   final List<String> skills = [
-    'Flutter Development',
-    'Dart Programming',
-    'Firebase integration',
-    'SQLite integration',
+    'Flutter Development:' '\nComplex UI implementation with animations',
+    'Dart Programming:\nComplex backend logic implementation',
+    'State Management Techniques: \nGetX, Provider, Bloc, Redux',
+    'Firebase integration:\nAuthentication, Firestore, Cloud Functions',
+    'Local Storage Techniques: \nSQLite, Hive, Shared Preference, ',
+    'API integration',
     'Custom Animations',
     'UI/UX Design',
   ];

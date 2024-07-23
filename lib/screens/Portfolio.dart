@@ -5,6 +5,17 @@ import 'Test.dart';
 class PortfolioScreen extends StatelessWidget {
   final List<PortfolioProject> projects = [
     PortfolioProject(
+      title: 'Fast Delivery Service',
+      description:
+          'A local delivery service in Mingora, Swat, Pakistan. Just order from the comfort of your home and FDS will deliver your food and daily use items to your doorstep.',
+      imagePaths: [
+        'images/FDS_1.png',
+        'images/FDS_2.png',
+        'images/FDS_3.png',
+        'images/FDS_4.png'
+      ],
+    ),
+    PortfolioProject(
       title: 'Pashto Quotes App',
       description:
           'A comprehensive app with 800+ quotes from Pashto language stored in local SQLite database where users can favorite, copy and share quotes on different social platforms.',
@@ -69,7 +80,9 @@ class PortfolioCard extends StatelessWidget {
             padding: const EdgeInsets.only(left: 16.0, right: 16.0, bottom: 16),
             child: Text(project.description),
           ),
-          ImageCarousel(imagePaths: project.imagePaths),
+          ImageCarousel(
+            imagePaths: project.imagePaths,
+          ),
         ],
       ),
     );

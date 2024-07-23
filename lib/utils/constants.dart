@@ -16,5 +16,5 @@ const kPrimaryColor = Colors.deepPurple;
 const kSecondaryColor = Colors.white;
 const kTextStyle = TextStyle(fontSize: 16, color: Colors.white);
 
-const style4 = TextStyle(fontWeight: FontWeight.w500);
+const style4 = TextStyle(fontWeight: FontWeight.w600, fontSize: 14);
 const kTertiaryColor = Color(0xffEDE7F6);
