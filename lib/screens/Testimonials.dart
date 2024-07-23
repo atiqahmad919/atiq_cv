@@ -44,7 +44,7 @@ class TestimonialCard extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Card(
-      margin: EdgeInsets.symmetric(vertical: 10),
+      margin: const EdgeInsets.symmetric(vertical: 10),
       shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(10)),
       elevation: 4,
       child: ListTile(
@@ -61,7 +61,17 @@ class TestimonialCard extends StatelessWidget {
             context: context,
             builder: (context) {
               return AlertDialog(
-                title: Text(testimonial.name),
+                title: Row(
+                  children: [
+                    CircleAvatar(
+                      backgroundImage: AssetImage(testimonial.imageUrl),
+                    ),
+                    SizedBox(
+                      width: 10,
+                    ),
+                    Text(testimonial.name),
+                  ],
+                ),
                 content:
                     SingleChildScrollView(child: Text(testimonial.feedback)),
                 actions: [
@@ -69,7 +79,7 @@ class TestimonialCard extends StatelessWidget {
                     onPressed: () {
                       Navigator.of(context).pop();
                     },
-                    child: Text('Close'),
+                    child: const Text('Close'),
                   ),
                 ],
               );

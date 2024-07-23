@@ -5,6 +5,17 @@ import 'Test.dart';
 class PortfolioScreen extends StatelessWidget {
   final List<PortfolioProject> projects = [
     PortfolioProject(
+      title: 'Pashto Quotes App',
+      description:
+          'A comprehensive app with 800+ quotes from Pashto language stored in local SQLite database where users can favorite, copy and share quotes on different social platforms.',
+      imagePaths: [
+        'images/Matale_1.png',
+        'images/Matale_2.png',
+        'images/Matale_3.png',
+        'images/Matale_4.png'
+      ],
+    ),
+    PortfolioProject(
       title: 'Fast Delivery Service',
       description:
           'A local delivery service in Mingora, Swat, Pakistan. Just order from the comfort of your home and FDS will deliver your food and daily use items to your doorstep.',
@@ -16,25 +27,14 @@ class PortfolioScreen extends StatelessWidget {
       ],
     ),
     PortfolioProject(
-      title: 'Pashto Quotes App',
-      description:
-          'A comprehensive app with 800+ quotes from Pashto language stored in local SQLite database where users can favorite, copy and share quotes on different social platforms.',
-      imagePaths: [
-        'images/matale_1.jpg',
-        'images/matale_2.jpg',
-        'images/matale_3.jpg',
-        'images/matale_4.jpg'
-      ],
-    ),
-    PortfolioProject(
       title: 'Quotes App',
       description:
           'Getting motivated daily with hundreds of quotes integrated via Firebase API. Users can Favorite, copy and share it on different social platforms.',
       imagePaths: [
-        'images/Liboq_1.jpg',
-        'images/Liboq_2.jpg',
-        'images/Liboq_3.jpg',
-        'images/Liboq_4.jpg'
+        'images/Liboq_1.png',
+        'images/Liboq_2.png',
+        'images/Liboq_3.png',
+        'images/Liboq_4.png'
       ],
     ),
   ];
